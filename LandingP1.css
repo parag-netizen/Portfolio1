@@ -53,10 +53,10 @@ a {
     width:185px;
     padding-top: 10px;
     transition: all 0.4s ease-in-out;
-    border-top-left-radius: 45px;
-    border-top-right-radius: 45px;
-    border-bottom-left-radius: 45px;
-    border-bottom-right-radius: 45px;
+    border-top-left-radius: 46px;
+    border-top-right-radius: 46px;
+    border-bottom-left-radius: 46px;
+    border-bottom-right-radius: 46px;
     align-content: center;
 }
 
