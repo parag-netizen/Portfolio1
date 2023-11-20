@@ -7,8 +7,17 @@
 
 body {
     height: 400vh;
-    background-color: #151515;
-    background-image: url(tesla-cybertruck-concept-cars-3840x2400-882.jpg); 
+    background-color: black;
+    overflow: overlay;
+}
+
+::-webkit-scrollbar {
+    background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+    background: rgb(85, 85, 85);
+    border-radius: 10px;
 }
 
 .abt {
@@ -31,24 +40,31 @@ body {
     font-size: 22px;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-decoration:none;
-    box-sizing: border-box;
+}
+
+a {
+   position: relative;
+   top:07px;
+   left: 52px;
 }
 
 .box {
-    height:90px;
-    width:165px;
-    padding: 30px;
-    transition: all 0.1s ease-in-out;
-}
-
-.box:hover {
-    background-color: yellow;
-    backdrop-filter;
+    height:60px;
+    width:185px;
+    padding-top: 10px;
+    transition: all 0.4s ease-in-out;
+    border-top-left-radius: 45px;
+    border-top-right-radius: 45px;
+    border-bottom-left-radius: 45px;
+    border-bottom-right-radius: 45px;
+    align-content: center;
 }
 
 .box:hover {
     & a {color:#151515;};
     transform-box:border-box;
+    background-color: yellow;
+    back
 }
 
 .rotate {
