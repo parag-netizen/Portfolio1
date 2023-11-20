@@ -69,7 +69,7 @@ a {
 
 .rotate {
     position: absolute;
-    left:3%;
+    left:2%;
     top:23%;
     transition: all 1s ease-in-out;
     border-radius: 50%;
