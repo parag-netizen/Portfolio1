@@ -1,0 +1,95 @@
+
+* {
+    padding:0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+body {
+    height: 400vh;
+    background-color: #151515;
+    background-image: url(tesla-cybertruck-concept-cars-3840x2400-882.jpg); 
+}
+
+.abt {
+    height: 90px;
+    width: 100%;
+    background-color: black;
+    margin-inline: auto;
+    position:sticky;
+    top:0;
+    z-index: 1;
+    display:flex;
+    gap: 2rem;
+    align-items: center;
+    justify-content: end;
+    padding-right: 100px;
+}
+
+.box a {
+    color: beige;
+    font-size: 22px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-decoration:none;
+    box-sizing: border-box;
+}
+
+.box {
+    height:90px;
+    width:165px;
+    padding: 30px;
+    transition: all 0.1s ease-in-out;
+}
+
+.box:hover {
+    background-color: yellow;
+    backdrop-filter;
+}
+
+.box:hover {
+    & a {color:#151515;};
+    transform-box:border-box;
+}
+
+.rotate {
+    position: absolute;
+    left:3%;
+    top:23%;
+    transition: all 1s ease-in-out;
+    border-radius: 50%;
+}
+.rotate:hover {
+    transform: rotate(180deg);
+}
+
+.spea {
+    height: 70vh;
+    width: 45vw;
+    position: absolute;
+    top: 20%;
+    left: 82px;
+}
+
+h1 {
+    font-size: 100px;
+    font-weight:bolder;
+    color: #f2f2f2;
+    font-family: 'Roboto', sans-serif;
+    position: absolute;
+    top: 10%;
+    left: 0%;
+}
+
+.spea p{
+    color: #f2f2f2;
+    font-size: 42px;
+    font-family: 'Roboto', sans-serif;
+    position: absolute;
+    top: 49%;
+}
+
+.img1 {
+    position: absolute;
+    left: 65%;
+    top: 22.8%;
+}
